@@ -1,0 +1,79 @@
+canonical_ingredient_id,canonical_name,preferred_display_name,ingredient_type,review_status,evidence_source,evidence_url,notes
+ING-0001,PARACETAMOL,Paracetamol,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; USAN is ACETAMINOPHEN
+ING-0002,ASCORBIC ACID,Ascorbic Acid (Vitamin C),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; commonly called VITAMIN C
+ING-0003,CHOLECALCIFEROL,Cholecalciferol (Vitamin D3),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; commonly called VITAMIN D3
+ING-0004,THIAMINE,Thiamine (Vitamin B1),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; VITAMIN B1
+ING-0005,PYRIDOXINE,Pyridoxine (Vitamin B6),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN for one B6 vitamer; see also PYRIDOXAL-5-PHOSPHATE
+ING-0006,PYRIDOXAL-5-PHOSPHATE,Pyridoxal-5-Phosphate (P5P),active_ingredient,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Active coenzyme form of B6; pharmacologically distinct from PYRIDOXINE
+ING-0007,CYANOCOBALAMIN,Cyanocobalamin (Vitamin B12),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,Most common INN form of VITAMIN B12
+ING-0008,METHYLCOBALAMIN,Methylcobalamin,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,Active coenzyme form of B12; distinct INN from CYANOCOBALAMIN
+ING-0009,HYDROXOCOBALAMIN,Hydroxocobalamin,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,Third B12 form; distinct INN
+ING-0010,FOLIC ACID,Folic Acid (Vitamin B9),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; PTEROYLGLUTAMIC ACID
+ING-0011,LEVOMEFOLIC ACID,Levomefolic Acid (L-Methylfolate),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; active metabolite of folic acid; distinct pharmacology
+ING-0012,TOCOPHEROL,Tocopherol (Vitamin E),active_ingredient,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Group name; alpha-tocopherol is the most common form — reviewer should specify
+ING-0013,RETINOL,Retinol (Vitamin A),active_ingredient,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,INN for VITAMIN A alcohol form; group term needs context
+ING-0014,ZINC,Zinc (elemental),mineral,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Often present as a salt; reviewer should confirm salt form
+ING-0015,ZINC OXIDE,Zinc Oxide,mineral,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Specific compound; topical applications common
+ING-0016,CALCIUM,Calcium (elemental),mineral,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Often present as carbonate/citrate/gluconate — reviewer should verify
+ING-0017,CALCIUM CARBONATE,Calcium Carbonate,mineral,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Specific calcium salt; INN confirmed
+ING-0018,MAGNESIUM,Magnesium (elemental),mineral,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Often present as oxide/citrate/glycinate — reviewer should confirm salt form
+ING-0019,IRON,Iron (elemental),mineral,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Element label; actual salt form (fumarate/bisglycinate/sulphate) should be resolved
+ING-0020,FERROUS BISGLYCINATE,Ferrous Bisglycinate,mineral,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Specific chelated iron salt
+ING-0021,FERROUS FUMARATE,Ferrous Fumarate,mineral,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Specific iron salt
+ING-0022,FERROUS GLYCINATE,Ferrous Glycinate,mineral,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Specific iron salt
+ING-0023,COPPER,Copper (elemental),mineral,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Often present as gluconate/sulphate; reviewer should verify salt form
+ING-0024,SELENIUM,Selenium (elemental),mineral,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Often as SELENIUM YEAST or SELENOMETHIONINE — reviewer should verify
+ING-0025,MANGANESE,Manganese (elemental),mineral,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Salt form unspecified in most tokens
+ING-0026,CHROMIUM,Chromium (elemental),mineral,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Often as chromium picolinate; form unspecified
+ING-0027,IBUPROFEN,Ibuprofen,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0028,AMOXICILLIN,Amoxicillin,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0029,CLAVULANIC ACID,Clavulanic Acid,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; beta-lactamase inhibitor
+ING-0030,AZITHROMYCIN,Azithromycin,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0031,AMLODIPINE,Amlodipine,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0032,HYDROCHLOROTHIAZIDE,Hydrochlorothiazide,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0033,CAFFEINE,Caffeine,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0034,CHLORPHENIRAMINE,Chlorpheniramine,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; antihistamine
+ING-0035,PSEUDOEPHEDRINE,Pseudoephedrine,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0036,GLUCOSE,Glucose,excipient_or_active,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,INN; D-glucose = dextrose
+ING-0037,THIOCTIC ACID,Thioctic Acid (Alpha-Lipoic Acid),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; common name ALPHA LIPOIC ACID
+ING-0038,GLIBENCLAMIDE,Glibenclamide,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; USAN is GLYBURIDE
+ING-0039,PALMITOYLETHANOLAMIDE,Palmitoylethanolamide (PEA),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0040,CALCIPOTRIOL,Calcipotriol,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; USAN is CALCIPOTRIENE
+ING-0041,METAMIZOLE,Metamizole,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; common name DIPYRONE
+ING-0042,SILYMARIN,Silymarin,herbal_substance,approved,EMA,https://www.ema.europa.eu/en/medicines/herbal,EMA-recognised herbal substance from milk thistle
+ING-0043,UREA,Urea,active_ingredient,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,INN; CARBAMIDE is systematic name
+ING-0044,METHYLSULFONYLMETHANE,Methylsulfonylmethane (MSM),nutraceutical,approved,Merck Index,https://www.merckmillipore.com/search,No WHO INN; accepted nutraceutical name
+ING-0045,COLISTIN,Colistin,active_ingredient,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Active form; COLISTIMETHATE SODIUM is a distinct prodrug INN
+ING-0046,COLISTIMETHATE SODIUM,Colistimethate Sodium,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,Prodrug INN; distinct from COLISTIN
+ING-0047,CLIOQUINOL,Clioquinol,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; former name IODOCHLORHYDROXYQUIN
+ING-0048,MESALAZINE,Mesalazine,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; USAN is MESALAMINE; also called 5-ASA
+ING-0049,CALCIUM FOLINATE,Calcium Folinate (Leucovorin),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; LEUCOVORIN is USAN; FOLINIC ACID is common name
+ING-0050,METHOXSALEN,Methoxsalen,active_ingredient,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,INN; AMMOIDIN and XANTHOTOXIN are historical names — confirm equals-separator usage
+ING-0051,MENAQUINONE-7,Menaquinone-7 (Vitamin K2 MK-7),active_ingredient,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,MK-7 is one specific form of VITAMIN K2; group term VITAMIN K2 not resolved
+ING-0052,CIMICIFUGA RACEMOSA,Cimicifuga racemosa (Black Cohosh),herbal_substance,approved,EMA,https://www.ema.europa.eu/en/medicines/herbal,EMA-recognised herbal substance
+ING-0053,BENFOTIAMINE,Benfotiamine,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,Lipid-soluble thiamine derivative; distinct INN from THIAMINE
+ING-0054,LACTOFERRIN,Lactoferrin,biologic,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; glycoprotein
+ING-0055,PYRIDOXINE HYDROCHLORIDE,Pyridoxine Hydrochloride,active_ingredient,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Salt form of PYRIDOXINE; common pharmaceutical form
+ING-0056,OMEGA-3 FATTY ACIDS,Omega-3 Fatty Acids,active_ingredient,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Group term; EPA (ICOSAPENTAENOIC ACID) and DHA (DOCOSAHEXAENOIC ACID) are distinct INNs
+ING-0057,HYALURONIC ACID,Hyaluronic Acid,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; also SODIUM HYALURONATE in salt form
+ING-0058,COLLAGEN,Collagen,biologic,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Source qualifier (marine/bovine) should be recorded as attribute
+ING-0059,GELATIN HYDROLYSATE,Gelatin Hydrolysate,biologic,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Hydrolysed gelatin; COLLAGEN HYDROLYSATE used synonymously — not fully equivalent
+ING-0060,HUMAN MENOPAUSAL GONADOTROPHIN,Human Menopausal Gonadotrophin,biologic,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Contains FSH+LH; reviewer should decide on composite vs split modelling
+ING-0061,FOLLITROPIN ALFA,Follitropin Alfa,biologic,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Specific INN; distinguish from FOLLITROPIN BETA
+ING-0062,RHO(D) IMMUNOGLOBULIN,Rho(D) Immunoglobulin,biologic,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN; HUMAN qualifier dropped per convention
+ING-0063,ANTI-THYMOCYTE IMMUNOGLOBULIN,Anti-Thymocyte Immunoglobulin (ATG),biologic,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,INN; A.T.G. is accepted abbreviation
+ING-0064,TIOGUANINE,Tioguanine,active_ingredient,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,INN; THIOGUANINE is older spelling; 6-TG is abbreviation
+ING-0065,BIOTIN,Biotin (Vitamin B7),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0066,MENTHOL,Menthol,active_ingredient,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,INN
+ING-0067,GLYCERIN,Glycerol,excipient_or_active,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,GLYCERIN is common name; INN is GLYCEROL
+ING-0068,PANTHENOL,Panthenol (Dexpanthenol),active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN is DEXPANTHENOL; PANTHENOL is accepted name
+ING-0069,SALICYLIC ACID,Salicylic Acid,active_ingredient,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,INN
+ING-0070,DIMETHICONE,Dimethicone,excipient_or_active,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,INN; silicone polymer
+ING-0071,ALLANTOIN,Allantoin,active_ingredient,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,INN
+ING-0072,CHLORHEXIDINE,Chlorhexidine,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0073,CAMPHOR,Camphor,active_ingredient,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,INN
+ING-0074,MELATONIN,Melatonin,active_ingredient,approved,WHO INN,https://www.who.int/tools/inn/innrecords,INN
+ING-0075,BROMELAIN,Bromelain,active_ingredient,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Proteolytic enzyme; INN
+ING-0076,TRYPSIN,Trypsin,active_ingredient,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Proteolytic enzyme; INN
+ING-0077,CHONDROITIN SULFATE,Chondroitin Sulfate,active_ingredient,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,INN; source (marine/bovine) is an attribute
+ING-0078,SODIUM CHLORIDE,Sodium Chloride,excipient_or_active,approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,INN

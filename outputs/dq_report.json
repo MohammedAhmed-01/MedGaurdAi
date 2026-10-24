@@ -1,0 +1,213 @@
+{
+  "generated_at": "2026-10-19T12:29:35.061765+00:00",
+  "pipeline_version": "0.1.0",
+  "source": {
+    "raw_row_count": 25070,
+    "raw_column_count": 8
+  },
+  "cleaning": {
+    "exact_duplicates_flagged": 4,
+    "name_duplicate_rows_flagged": 10,
+    "registration_status_counts": {
+      "NOT_APPLICABLE": 1208,
+      "CANCELLED": 255,
+      "ILLEGAL_IMPORT": 99,
+      "WITHDRAWN": 1
+    }
+  },
+  "manufacturer_parsing": {
+    "flag_counts": {
+      "SPLIT": 13271,
+      "PLAIN": 11728,
+      "MISSING": 71
+    }
+  },
+  "drug_class": {
+    "total_distinct_raw": 2498,
+    "mapped_to_canonical": 7211,
+    "unmapped_count": 17859
+  },
+  "route": {
+    "raw_distribution": {
+      "ORAL.SOLID": 10589,
+      "TOPICAL": 4140,
+      "INJECTION": 2635,
+      "UNKNOWN": 2597,
+      "ORAL.LIQUID": 2236,
+      "EFF": 1037,
+      "SPRAY": 488,
+      "EYE": 473,
+      "VAGINAL": 359,
+      "MOUTH": 174,
+      "RECTAL": 171,
+      "SOAP": 130,
+      "EAR": 41
+    },
+    "needs_review_count": 488
+  },
+  "missing_values": {
+    "scientific_name": 2308,
+    "manufacturer": 71,
+    "drug_class": 97
+  },
+  "scientific_name_parsing": {
+    "total_records_parsed": 25070,
+    "records_with_missing_sci_name": 2308,
+    "records_with_truncated_list": 59,
+    "records_with_equals_ambiguous": 28,
+    "records_with_slash_ambiguous": 92,
+    "records_with_mixed_separators": 109,
+    "separator_distribution": {
+      "NONE": 13008,
+      "PLUS": 9570,
+      "DASH": 105,
+      "EQUALS": 28,
+      "AND": 21,
+      "AMP": 15,
+      "SLASH": 15
+    },
+    "all_record_flag_counts": {
+      "MISSING_SCI_NAME": 2308,
+      "EQUALS_AMBIGUOUS": 28,
+      "TRUNCATED_LIST": 59,
+      "AND_SEPARATOR_USED": 21,
+      "MIXED_SEPARATORS": 109,
+      "AMP_SEPARATOR_USED": 15,
+      "SLASH_AMBIGUOUS": 92
+    }
+  },
+  "token_inventory": {
+    "total_token_occurrences": 57198,
+    "unique_raw_tokens": 8499,
+    "tokens_with_embedded_dose": 1367,
+    "tokens_with_parenthetical": 1745,
+    "review_queue_unique_tokens": 2018,
+    "review_queue_total_occurrences": 3498,
+    "top_10_tokens": [
+      {
+        "raw_token": "VITAMIN C",
+        "occurrence_count": 1101
+      },
+      {
+        "raw_token": "ZINC",
+        "occurrence_count": 888
+      },
+      {
+        "raw_token": "PANTHENOL",
+        "occurrence_count": 881
+      },
+      {
+        "raw_token": "VITAMIN E",
+        "occurrence_count": 718
+      },
+      {
+        "raw_token": "FOLIC ACID",
+        "occurrence_count": 629
+      },
+      {
+        "raw_token": "MENTHOL",
+        "occurrence_count": 589
+      },
+      {
+        "raw_token": "GLYCERIN",
+        "occurrence_count": 584
+      },
+      {
+        "raw_token": "VITAMIN D3",
+        "occurrence_count": 485
+      },
+      {
+        "raw_token": "IRON",
+        "occurrence_count": 479
+      },
+      {
+        "raw_token": "CALCIUM",
+        "occurrence_count": 426
+      }
+    ]
+  },
+  "raw_profile": {
+    "row_count": 25070,
+    "column_count": 8,
+    "columns": {
+      "commercial_name_en": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 25065,
+        "sample_values": [
+          "1 2 3 (ONE TWO THREE) 20 F.C.TABS.",
+          "1 2 3 (ONE TWO THREE) EXTRA 20 F.C.TABS.",
+          "1 2 3 (ONE TWO THREE) SUSP. 120 ML"
+        ]
+      },
+      "commercial_name_ar": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 20148,
+        "sample_values": [
+          "1 2 3",
+          "1 2 3 \u0625\u0643\u0633\u062a\u0631\u0627",
+          "1 2 3"
+        ]
+      },
+      "scientific_name": {
+        "dtype": "str",
+        "null_count": 2308,
+        "null_pct": 9.21,
+        "unique_count": 8553,
+        "sample_values": [
+          "CHLORPHENIRAMINE+PARACETAMOL(ACETAMINOPHEN)+PSEUDOEPHEDRINE",
+          "CHLORPHENIRAMINE+PARACETAMOL(ACETAMINOPHEN)+PSEUDOEPHEDRINE",
+          "CHLORPHENIRAMINE+PARACETAMOL(ACETAMINOPHEN)+PSEUDOEPHEDRINE"
+        ]
+      },
+      "manufacturer": {
+        "dtype": "str",
+        "null_count": 71,
+        "null_pct": 0.28,
+        "unique_count": 5565,
+        "sample_values": [
+          "HIKMA PHARMA",
+          "HIKMA PHARMA",
+          "HIKMA PHARMA"
+        ]
+      },
+      "drug_class": {
+        "dtype": "str",
+        "null_count": 97,
+        "null_pct": 0.39,
+        "unique_count": 2498,
+        "sample_values": [
+          "COLD PRODUCTS",
+          "COLD PRODUCTS",
+          "COLD PRODUCTS"
+        ]
+      },
+      "route": {
+        "dtype": "str",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 13,
+        "sample_values": [
+          "ORAL.SOLID",
+          "ORAL.SOLID",
+          "ORAL.LIQUID"
+        ]
+      },
+      "price_egp": {
+        "dtype": "float64",
+        "null_count": 0,
+        "null_pct": 0.0,
+        "unique_count": 2078,
+        "min": 0.3,
+        "max": 375504.0,
+        "mean": 674.5423,
+        "median": 75.0,
+        "p25": 31.0,
+        "p75": 180.0
+      }
+    }
+  }
+}

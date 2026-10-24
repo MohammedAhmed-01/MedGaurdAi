@@ -1,0 +1,107 @@
+raw_ingredient,canonical_ingredient,mapping_type,decision_status,evidence_source,evidence_url,notes
+PARACETAMOL(ACETAMINOPHEN),PARACETAMOL,documented_synonym,auto_approved,WHO INN / USP,https://www.who.int/tools/inn/innrecords,ACETAMINOPHEN is the USAN name; PARACETAMOL is INN. Parenthetical confirms synonym.
+ACETAMINOPHEN,PARACETAMOL,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,USAN→INN normalisation
+GLUCOSE (DEXTROSE),GLUCOSE,documented_synonym,auto_approved,Merck Index / Ph.Eur.,https://www.merckmillipore.com/search,DEXTROSE is the common name for D-glucose; same substance
+DEXTROSE,GLUCOSE,documented_synonym,auto_approved,Merck Index,https://www.merckmillipore.com/search,DEXTROSE = D-glucose INN
+CHOLECALCIFEROL(VITAMIN D3),CHOLECALCIFEROL,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,VITAMIN D3 is the common name; CHOLECALCIFEROL is INN. Dose stripped separately.
+CHOLECALCIFEROL (VITAMIN D3),CHOLECALCIFEROL,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Spacing variant of above
+CHOLECALCIFEROL(VIT D3),CHOLECALCIFEROL,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Abbreviation variant
+VITAMIN D3,CHOLECALCIFEROL,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,VITAMIN D3 common name maps to INN CHOLECALCIFEROL
+VIT D3,CHOLECALCIFEROL,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Abbreviation; same substance
+THIOCTIC ACID(ALPHA LIPOIC ACID),THIOCTIC ACID,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,ALPHA LIPOIC ACID = THIOCTIC ACID (INN). Parenthetical is synonym.
+ALPHA LIPOIC ACID,THIOCTIC ACID,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Common name for THIOCTIC ACID
+GLIBENCLAMIDE(GLYBURIDE),GLIBENCLAMIDE,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,GLYBURIDE is USAN; GLIBENCLAMIDE is INN
+GLYBURIDE,GLIBENCLAMIDE,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,USAN→INN
+PALMITOYLETHANOLAMIDE(PEA),PALMITOYLETHANOLAMIDE,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,PEA is the accepted abbreviation; parenthetical confirms it
+CALCIPOTRIOL(CALCIPOTRIENE),CALCIPOTRIOL,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,CALCIPOTRIENE is USAN; CALCIPOTRIOL is INN
+CALCIPOTRIENE,CALCIPOTRIOL,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,USAN→INN
+DIPYRONE(METAMIZOLE),METAMIZOLE,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,METAMIZOLE is the INN; DIPYRONE is the common name
+DIPYRONE,METAMIZOLE,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Common name → INN
+SILYMARIN(MILK THISTLE EXTRACT),SILYMARIN,exact_normalization,auto_approved,European Medicines Agency,https://www.ema.europa.eu/en/medicines/herbal,MILK THISTLE EXTRACT is a general description; SILYMARIN is the phytochemical identity
+CARBAMIDE(UREA),UREA,documented_synonym,auto_approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,CARBAMIDE = UREA (systematic name). INN is UREA.
+CARBAMIDE,UREA,documented_synonym,auto_approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Systematic name
+METHYL SULFONYL METHANE (MSM),METHYLSULFONYLMETHANE,exact_normalization,auto_approved,Merck Index,https://www.merckmillipore.com/search,MSM is accepted abbreviation; spacing variant normalised
+MSM,METHYLSULFONYLMETHANE,exact_normalization,auto_approved,Merck Index,https://www.merckmillipore.com/search,Accepted abbreviation
+MSM(METHYL SULPHONYL METHANE),METHYLSULFONYLMETHANE,exact_normalization,auto_approved,Merck Index,https://www.merckmillipore.com/search,British spelling variant SULPHONYL→SULFONYL
+METHYL SULFONYL METHANE,METHYLSULFONYLMETHANE,exact_normalization,auto_approved,Merck Index,https://www.merckmillipore.com/search,Spacing variant
+COLISTIN (COLISTIMETHATE SODIUM),COLISTIN,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"COLISTIMETHATE SODIUM is the prodrug; COLISTIN is the active form. These are not identical — reviewer should confirm which form is intended"
+CLIOQUINOL(IODOCHLORHYDROXYQUIN),CLIOQUINOL,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,IODOCHLORHYDROXYQUIN is the former name; CLIOQUINOL is INN
+MESALAZINE(MESALAMINE)(5-ASA)(5-AMINOSALICYLIC ACID),MESALAZINE,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,MESALAMINE is USAN; MESALAZINE is INN; 5-ASA/5-aminosalicylic acid are chemical names
+MESALAMINE,MESALAZINE,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,USAN→INN
+LEUCOVORIN CALCIUM=FOLINIC ACID=CALCIUM FOLINATE,CALCIUM FOLINATE,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"LEUCOVORIN is USAN; FOLINIC ACID is common name; CALCIUM FOLINATE is INN. Equals sign used as synonym separator — confirm before loading to graph"
+METHOXSALEN=AMMOIDIN=XANTHOTOXIN,METHOXSALEN,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,METHOXSALEN is INN; AMMOIDIN and XANTHOTOXIN are historical names. Equals separator — confirm.
+MENAQUINONE-7=VITAMIN K2,MENAQUINONE-7,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"VITAMIN K2 is the group name; MK-7 is a specific form. Equals sign used as synonym separator — reviewer must confirm which form is registered"
+TOCOPHEROL (VITAMIN E),TOCOPHEROL,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,VITAMIN E is common group name; TOCOPHEROL is the chemical class. Context-specific; reviewer may want alpha-tocopherol.
+VITAMIN E (TOCOPHEROL),TOCOPHEROL,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Ordering variant of above
+VITAMIN E,TOCOPHEROL,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"VITAMIN E is non-specific (alpha/gamma/delta tocopherol). Auto-canonical to TOCOPHEROL is defensible but reviewer should confirm alpha-tocopherol is intended"
+L-METHYLFOLATE(LEVOMEFOLIC ACID),LEVOMEFOLIC ACID,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,L-METHYLFOLATE is common name; LEVOMEFOLIC ACID is INN
+L-METHYLFOLATE,LEVOMEFOLIC ACID,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Common name → INN
+PYRIDOXINE HCL(VITAMIN B6),PYRIDOXINE HYDROCHLORIDE,salt_or_chemical_form,auto_approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,HCL normalised to HYDROCHLORIDE; VITAMIN B6 parenthetical is a synonym
+PYRIDOXINE HCL,PYRIDOXINE HYDROCHLORIDE,salt_or_chemical_form,auto_approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,HCL abbreviation expansion
+VITAMIN B6 (PYRIDOXAL-5PHOSPHATE),PYRIDOXAL-5-PHOSPHATE,salt_or_chemical_form,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"PYRIDOXAL-5-PHOSPHATE (P5P) is the active coenzyme form, distinct from PYRIDOXINE. Do not merge with PYRIDOXINE without clinical confirmation"
+VITAMIN B6 (PYRIDOXINE),PYRIDOXINE,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,PYRIDOXINE is the INN for one B6 vitamer
+VITAMIN B6,PYRIDOXINE,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"VITAMIN B6 may refer to PYRIDOXINE, PYRIDOXAL, or PYRIDOXAL-5-PHOSPHATE. Needs context to resolve."
+VIT B6,PYRIDOXINE,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Same ambiguity as VITAMIN B6; abbreviated form
+B6,PYRIDOXINE,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Bare abbreviation; same ambiguity
+VITAMIN B12(METHYLCOBALAMIN),METHYLCOBALAMIN,salt_or_chemical_form,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,METHYLCOBALAMIN is a specific cobalamin form; INN confirmed
+VITAMIN B12 (METHYL COBALAMIN),METHYLCOBALAMIN,salt_or_chemical_form,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Spacing variant
+VITAMIN B12( AS METHYLCOBLINE),METHYLCOBALAMIN,salt_or_chemical_form,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,METHYLCOBLINE appears to be a misspelling of METHYLCOBALAMIN — reviewer must confirm
+VITAMIN B12(METHYLOCOBALAMIN),METHYLCOBALAMIN,spelling_variant,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,METHYLOCOBALAMIN is a likely misspelling; needs confirmation
+VITAMIN B12 ( METHYLCOBALAMINE),METHYLCOBALAMIN,spelling_variant,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,METHYLCOBALAMINE is a spelling variant (French-influenced)
+VIT B12( METHYLCOBALAMINE),METHYLCOBALAMIN,spelling_variant,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Abbreviation + spelling variant
+VITAMIN B12,CYANOCOBALAMIN,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"VITAMIN B12 most commonly refers to CYANOCOBALAMIN, but may also be METHYLCOBALAMIN or HYDROXOCOBALAMIN. Do not auto-resolve."
+VIT B12,CYANOCOBALAMIN,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Same ambiguity as VITAMIN B12
+FOLATE,FOLIC ACID,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"FOLATE is the group term; FOLIC ACID (PTEROYLGLUTAMIC ACID) is the synthetic form. In nutritional labelling they overlap, but clinically they differ. Do not auto-merge."
+FOLIC ACID (B9),FOLIC ACID,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,B9 parenthetical confirms identity; no ambiguity
+FOLIC ACID(B9),FOLIC ACID,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Spacing variant
+FOLIC ACID ( VITAMIN B9 ),FOLIC ACID,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Synonym parenthetical
+FOLIC ACID (METHYL FOLAT),FOLIC ACID,needs_review,needs_review,,,"METHYL FOLAT appears to be a misspelling of METHYLFOLATE (LEVOMEFOLIC ACID), which is pharmacologically distinct from FOLIC ACID. Do not auto-merge."
+IRON (FERROUS FUMARATE),FERROUS FUMARATE,salt_or_chemical_form,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,"FERROUS FUMARATE is a specific iron salt. IRON alone is the element. These are NOT the same for graph purposes — preserve both and create a SALT_OF relationship"
+IRON(FERROUS BISGLYCINATE),FERROUS BISGLYCINATE,salt_or_chemical_form,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,FERROUS BISGLYCINATE is a chelated iron form — distinct from elemental IRON
+IRON(FERROUS GLYCINATE),FERROUS GLYCINATE,salt_or_chemical_form,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Distinct salt form
+IRON( LIPOSOMAL),IRON,exact_normalization,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,LIPOSOMAL is a delivery form qualifier — reviewer should decide whether to model as a separate node or an attribute
+IRON (FERROUS BISGLYCINATE) 35 MG,FERROUS BISGLYCINATE,combination_component,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Dose embedded — strip dose and resolve iron salt separately
+GELATIN (COLLAGEN) HYDROLYSATE,GELATIN HYDROLYSATE,exact_normalization,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,"GELATIN is hydrolysed collagen. COLLAGEN HYDROLYSATE is sometimes used synonymously. Not strictly identical — reviewer should confirm which term is intended"
+CIMICIFUGA RACEMOSA(BLACK COHOSH),CIMICIFUGA RACEMOSA,documented_synonym,auto_approved,European Medicines Agency,https://www.ema.europa.eu/en/medicines/herbal,BLACK COHOSH is the common name; CIMICIFUGA RACEMOSA is the Latin botanical name
+VITAMIN C (ASCORBIC ACID),ASCORBIC ACID,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,ASCORBIC ACID is INN; VITAMIN C is the common name
+VIT C,ASCORBIC ACID,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Accepted abbreviation for VITAMIN C/ASCORBIC ACID
+VITAMIN C,ASCORBIC ACID,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,VITAMIN C common name → INN ASCORBIC ACID
+BENFOTIAMINE (VITAMIN B1),BENFOTIAMINE,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,"BENFOTIAMINE is a lipid-soluble thiamine derivative — distinct from THIAMINE. INN confirmed. Parenthetical 'VITAMIN B1' is informal; do NOT merge with THIAMINE."
+BENFOTIAMINE (VIT. B1),BENFOTIAMINE,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Abbreviated variant of above
+BENFOTIAMINE(B1),BENFOTIAMINE,exact_normalization,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"Parenthetical B1 may mislead — reviewer should confirm this is BENFOTIAMINE and not plain THIAMINE"
+VITAMIN B1 (BENFOTIAMINE),BENFOTIAMINE,salt_or_chemical_form,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"BENFOTIAMINE is NOT the same as THIAMINE (VITAMIN B1). This form lists B1 first — reviewer must confirm the product contains BENFOTIAMINE specifically"
+VITAMIN B1 (THIAMINE),THIAMINE,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,THIAMINE is the INN for VITAMIN B1; parenthetical confirms
+VITAMIN B1 (THIAMIN),THIAMINE,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,THIAMIN is the American spelling variant
+VITAMIN B1,THIAMINE,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,VITAMIN B1 maps unambiguously to THIAMINE (INN)
+VIT B1,THIAMINE,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Abbreviation variant
+VITAMIN A,RETINOL,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"VITAMIN A is the group name (retinol, retinal, retinyl esters). RETINOL is INN for the specific alcohol form. Do not auto-resolve without source context."
+METHYLCOBALAMIN (B12),METHYLCOBALAMIN,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,B12 parenthetical is a synonym note; METHYLCOBALAMIN is INN
+METHYLCOBALAMIN ( VIT B 12),METHYLCOBALAMIN,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Abbreviated spacing variant
+METHYLCOBALAMIN (VIT. B12) 1000 MCG,METHYLCOBALAMIN,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Dose embedded — strip dose separately
+VITAMIN C (AS L-ASCORBIC ACID) 1000 MG,ASCORBIC ACID,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,AS L-ASCORBIC ACID confirms INN form; dose stripped
+OMEGA-3 FISH OIL 1000 MG,OMEGA-3 FATTY ACIDS,exact_normalization,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"OMEGA-3 FISH OIL is a source description, not an INN. Reviewer should specify EPA and/or DHA content if available"
+OMEGA 3,OMEGA-3 FATTY ACIDS,exact_normalization,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,OMEGA 3 (no hyphen) normalised to OMEGA-3 FATTY ACIDS; reviewer should check for EPA/DHA split
+OMEGA 3 (EPA+DHA),OMEGA-3 FATTY ACIDS,combination_component,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,EPA and DHA are distinct INNs; reviewer should decide on split vs aggregate node
+BIOTIN (VITAMIN B7),BIOTIN,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,BIOTIN is INN; VITAMIN B7 parenthetical confirms
+BIOTIN (VIT B7),BIOTIN,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Abbreviated variant
+COLLAGEN (MARINE),COLLAGEN,exact_normalization,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"MARINE is a source qualifier — reviewer may wish to model as attribute, not separate node"
+COLLAGEN(MARINE),COLLAGEN,exact_normalization,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,Spacing variant of above
+HYALURONIC ACID,HYALURONIC ACID,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Already canonical; whitespace/dose normalisation only
+CALCIUM CARBONATE,CALCIUM CARBONATE,exact_normalization,auto_approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Specific calcium salt; already canonical
+FERROUS BISGLYCINATE,FERROUS BISGLYCINATE,exact_normalization,auto_approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Specific iron salt; already canonical
+AMOXICILLIN,AMOXICILLIN,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Already canonical INN
+AMLODIPINE,AMLODIPINE,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Already canonical INN
+HYDROCHLOROTHIAZIDE,HYDROCHLOROTHIAZIDE,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Already canonical INN
+CAFFEINE,CAFFEINE,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Already canonical INN
+IBUPROFEN,IBUPROFEN,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Already canonical INN
+AZITHROMYCIN,AZITHROMYCIN,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Already canonical INN
+CLAVULANIC ACID,CLAVULANIC ACID,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Already canonical INN
+HUMAN MENOPAUSAL GONADOTROPHIN (FSH+LH),HUMAN MENOPAUSAL GONADOTROPHIN,combination_component,needs_review,,,"FSH+LH inside parentheses indicates composition of this hormonal mixture. Reviewer should decide whether to model as a single node or split into FSH and LH."
+FOLLITROPIN (RECOMBINANT FSH),FOLLITROPIN ALFA,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"FOLLITROPIN is the INN stem; FOLLITROPIN ALFA and FOLLITROPIN BETA are distinct INNs. RECOMBINANT FSH parenthetical does not resolve which form — needs review"
+RHO(D)HUMAN IMMUNOGLOBULIN,RHO(D) IMMUNOGLOBULIN,exact_normalization,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,HUMAN qualifier removed per INN convention; product identity preserved
+ANTI-T LYMPHOCYTE(ANTI-THYMOCYTE) IMMUNOGLOBULIN=A.T.G.,ANTI-THYMOCYTE IMMUNOGLOBULIN,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,"A.T.G. is an abbreviation; ANTI-T LYMPHOCYTE and ANTI-THYMOCYTE are synonyms. Equals sign used as separator — confirm before graph load"
+THIOGUANINE(TIOGUANINE)=6-TG,TIOGUANINE,documented_synonym,needs_review,WHO INN,https://www.who.int/tools/inn/innrecords,TIOGUANINE is INN; THIOGUANINE is the older spelling; 6-TG is abbreviation. Equals separator needs review.
+LACTOFERRIN (NATURAL SOURCE),LACTOFERRIN,exact_normalization,needs_review,,,"NATURAL SOURCE is a source qualifier; reviewer should decide whether to model as attribute"
+VIT C,ASCORBIC ACID,documented_synonym,auto_approved,WHO INN,https://www.who.int/tools/inn/innrecords,Already covered above; deduplication handled in canonicalization module
+ZINC OXIDE,ZINC OXIDE,exact_normalization,auto_approved,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,Specific zinc compound; not the same as elemental ZINC
+ZINC,ZINC,exact_normalization,needs_review,Ph.Eur.,https://www.edqm.eu/en/european-pharmacopoeia,"ZINC alone in a product is likely a zinc salt (ZINC GLUCONATE, ZINC SULPHATE, etc.). Reviewer should check source for salt form."

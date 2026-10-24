@@ -1,0 +1,206 @@
+{
+  "generated_at": "2026-10-24T08:54:37.743621+00:00",
+  "pipeline_stage": "5b_canonicalization",
+  "totals": {
+    "total_token_occurrences": 57198,
+    "unique_raw_tokens_in_table": 8498,
+    "canonical_entries_in_map": 106,
+    "canonical_ingredients_in_reference": 78
+  },
+  "resolution_status_counts": {
+    "UNRESOLVED": 46824,
+    "NEEDS_REVIEW": 3648,
+    "AUTO_CANONICAL": 3457,
+    "EXACT_PASS_THROUGH": 3269
+  },
+  "resolution_pct": {
+    "AUTO_CANONICAL": 6.04,
+    "EXACT_PASS_THROUGH": 5.72,
+    "NEEDS_REVIEW": 6.38,
+    "UNRESOLVED": 81.86
+  },
+  "top_unresolved_tokens": [
+    {
+      "raw_token": "PANTHENOL",
+      "product_count": 880
+    },
+    {
+      "raw_token": "MENTHOL",
+      "product_count": 589
+    },
+    {
+      "raw_token": "GLYCERIN",
+      "product_count": 584
+    },
+    {
+      "raw_token": "IRON",
+      "product_count": 479
+    },
+    {
+      "raw_token": "CALCIUM",
+      "product_count": 426
+    },
+    {
+      "raw_token": "MAGNESIUM",
+      "product_count": 403
+    },
+    {
+      "raw_token": "TEA TREE OIL",
+      "product_count": 394
+    },
+    {
+      "raw_token": "OLIVE OIL",
+      "product_count": 393
+    },
+    {
+      "raw_token": "ALOE VERA",
+      "product_count": 309
+    },
+    {
+      "raw_token": "SELENIUM",
+      "product_count": 309
+    },
+    {
+      "raw_token": "COPPER",
+      "product_count": 306
+    },
+    {
+      "raw_token": "CAMPHOR",
+      "product_count": 275
+    },
+    {
+      "raw_token": "SALICYLIC ACID",
+      "product_count": 272
+    },
+    {
+      "raw_token": "CHAMOMILE",
+      "product_count": 264
+    },
+    {
+      "raw_token": "ALLANTOIN",
+      "product_count": 235
+    },
+    {
+      "raw_token": "SODIUM CHLORIDE",
+      "product_count": 221
+    },
+    {
+      "raw_token": "JOJOBA OIL",
+      "product_count": 219
+    },
+    {
+      "raw_token": "EUCALYPTUS OIL",
+      "product_count": 216
+    },
+    {
+      "raw_token": "CLOVE OIL",
+      "product_count": 209
+    },
+    {
+      "raw_token": "CHLORHEXIDINE",
+      "product_count": 207
+    }
+  ],
+  "top_needs_review_tokens": [
+    {
+      "raw_token": "ZINC",
+      "canonical_name": "ZINC",
+      "product_count": 887
+    },
+    {
+      "raw_token": "VITAMIN E",
+      "canonical_name": "TOCOPHEROL",
+      "product_count": 718
+    },
+    {
+      "raw_token": "VITAMIN B12",
+      "canonical_name": "CYANOCOBALAMIN",
+      "product_count": 422
+    },
+    {
+      "raw_token": "VITAMIN B6",
+      "canonical_name": "PYRIDOXINE",
+      "product_count": 363
+    },
+    {
+      "raw_token": "LACTOFERRIN",
+      "canonical_name": "LACTOFERRIN",
+      "product_count": 251
+    },
+    {
+      "raw_token": "COLLAGEN",
+      "canonical_name": "COLLAGEN",
+      "product_count": 206
+    },
+    {
+      "raw_token": "VITAMIN A",
+      "canonical_name": "RETINOL",
+      "product_count": 182
+    },
+    {
+      "raw_token": "OMEGA 3",
+      "canonical_name": "OMEGA-3 FATTY ACIDS",
+      "product_count": 78
+    },
+    {
+      "raw_token": "B6",
+      "canonical_name": "PYRIDOXINE",
+      "product_count": 67
+    },
+    {
+      "raw_token": "GELATIN (COLLAGEN) HYDROLYSATE",
+      "canonical_name": "GELATIN HYDROLYSATE",
+      "product_count": 61
+    },
+    {
+      "raw_token": "VIT B12",
+      "canonical_name": "CYANOCOBALAMIN",
+      "product_count": 61
+    },
+    {
+      "raw_token": "FOLATE",
+      "canonical_name": "FOLIC ACID",
+      "product_count": 53
+    },
+    {
+      "raw_token": "VIT B6",
+      "canonical_name": "PYRIDOXINE",
+      "product_count": 50
+    },
+    {
+      "raw_token": "VIT A",
+      "canonical_name": "RETINOL",
+      "product_count": 30
+    },
+    {
+      "raw_token": "LEUCOVORIN CALCIUM=FOLINIC ACID=CALCIUM FOLINATE",
+      "canonical_name": "CALCIUM FOLINATE",
+      "product_count": 17
+    },
+    {
+      "raw_token": "OMEGA-3 FISH OIL",
+      "canonical_name": "OMEGA-3 FATTY ACIDS",
+      "product_count": 17
+    },
+    {
+      "raw_token": "HUMAN MENOPAUSAL GONADOTROPHIN (FSH+LH)",
+      "canonical_name": "HUMAN MENOPAUSAL GONADOTROPHIN",
+      "product_count": 13
+    },
+    {
+      "raw_token": "COLISTIN (COLISTIMETHATE SODIUM)",
+      "canonical_name": "COLISTIN",
+      "product_count": 10
+    },
+    {
+      "raw_token": "FOLLITROPIN (RECOMBINANT FSH)",
+      "canonical_name": "FOLLITROPIN ALFA",
+      "product_count": 8
+    },
+    {
+      "raw_token": "LACTOFERRIN 100 MG",
+      "canonical_name": "LACTOFERRIN",
+      "product_count": 8
+    }
+  ]
+}

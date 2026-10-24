@@ -1,0 +1,9 @@
+issue_code,affected_rows,handling_policy,interpretation
+MISSING_SCIENTIFIC_NAME,2308,Keep the product; do not create ingredient edges.,"Missing identity is unresolved, not safe or ingredient-free."
+INVALID_PRICE,0,Keep raw value and flag for review; no imputation.,Price quality does not determine product identity.
+NON_POSITIVE_PRICE,0,Keep raw value and flag for review.,May be a source convention or invalid price.
+PRICE_IQR_OUTLIER,2186,Keep value; review extreme prices separately.,Outlier is not proof of a data error.
+DUPLICATE_ENGLISH_NAME,10,"Do not merge without composition, strength, route, and manufacturer agreement.",Commercial names are not stable product identifiers.
+EXACT_DUPLICATE_ROW,4,Flag only; preserve every source row and index.,Source provenance must remain complete.
+TRUNCATED_SCIENTIFIC_NAME,59,Keep parsed prefix only as provisional and require review.,The source list may be incomplete.
+STATUS_MARKER_PRESENT,1563,Store marker as product_status; do not infer current approval.,Dataset presence is not proof of current marketing or approval.

@@ -1,0 +1,6 @@
+pattern,status_code,description
+(ILLEGAL IMPORT),ILLEGAL_IMPORT,Product imported without registration
+(WITHDRAWAL),WITHDRAWN,Product officially withdrawn from market
+(CANCELLED),CANCELLED,Registration cancelled
+(N/A),NOT_APPLICABLE,Not applicable status
+(DISCONTINUED),DISCONTINUED,Product discontinued

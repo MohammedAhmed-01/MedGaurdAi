@@ -1,0 +1,16 @@
+raw_value,canonical_value,notes
+ORAL.SOLID,ORAL.SOLID,
+ORAL.LIQUID,ORAL.LIQUID,
+INJECTION,INJECTION,
+TOPICAL,TOPICAL,
+EFF,ORAL.SOLID.EFFERVESCENT,Effervescent is a formulation type not a route; mapped to oral solid subtype
+EYE,OPHTHALMIC,
+EAR,OTIC,
+VAGINAL,VAGINAL,
+RECTAL,RECTAL,
+SPRAY,SPRAY.UNSPECIFIED,Context-dependent: could be nasal/topical/oral; flagged for review
+MOUTH,OROMUCOSAL,
+SOAP,TOPICAL,Soap is a formulation; route is topical
+NASAL,NASAL,
+INHALATION,INHALATION,
+UNKNOWN,,Route not captured; mapped to null

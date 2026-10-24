@@ -1,0 +1,6 @@
+metric,value,notes
+source_product_rows,25070,Every source row receives one deterministic product_id.
+product_alias_rows,50140,English and Arabic aliases are retained separately.
+product_ingredient_rows,57198,All parsed token relationships retained with resolution status.
+graph_eligible_product_ingredient_rows,6476,Only approved canonical identities and accepted mapping statuses.
+products_requiring_review,24024,Missing ingredient identity or unresolved/review mappings.

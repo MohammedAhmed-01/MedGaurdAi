@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Egyptian Drug Pipeline – DQ Report</title>
+<style>
+  body { font-family: system-ui, sans-serif; margin: 2rem; color: #222; }
+  h1 { color: #1a5276; }
+  h2 { color: #1f618d; border-bottom: 1px solid #aed6f1; padding-bottom: .3em; }
+  table.kv { border-collapse: collapse; margin-bottom: 1rem; }
+  table.kv td { padding: .25rem .75rem; border: 1px solid #d5d8dc; }
+  td.k { background: #eaf4fb; font-weight: 600; white-space: nowrap; }
+  td.v { font-family: monospace; }
+  .badge { display:inline-block; background:#1f618d; color:#fff;
+            border-radius:4px; padding:.15rem .5rem; font-size:.85rem; }
+  table.top10 { border-collapse: collapse; }
+  table.top10 th, table.top10 td { border: 1px solid #ccc; padding: .25rem .6rem; }
+  table.top10 th { background: #d6eaf8; }
+  .warn { color: #b7950b; font-weight: 600; }
+  .ok { color: #1e8449; font-weight: 600; }
+</style>
+</head>
+<body>
+<h1>Egyptian Drug Normalization Pipeline — Data-Quality Report</h1>
+<p>Generated: <strong>2026-10-24T09:31:46.723018+00:00</strong> &nbsp;|&nbsp;
+   Pipeline version: <strong>0.1.0</strong></p>
+
+<h2>Source Dataset</h2>
+<table class='kv'><tr><td class='k'>Raw rows</td><td class='v'>25070</td></tr><tr><td class='k'>Columns</td><td class='v'>8</td></tr></table>
+
+<h2>Row-Level Cleaning</h2>
+<table class='kv'><tr><td class='k'>Exact duplicate rows flagged</td><td class='v'>4</td></tr><tr><td class='k'>Rows sharing a commercial name</td><td class='v'>10</td></tr><tr><td class='k'>Registration-status flags</td><td class='v'>{'NOT_APPLICABLE': 1208, 'CANCELLED': 255, 'ILLEGAL_IMPORT': 99, 'WITHDRAWN': 1}</td></tr></table>
+
+<h2>Missing Values</h2>
+<table class='kv'><tr><td class='k'>scientific_name</td><td class='v'>2308 missing</td></tr><tr><td class='k'>manufacturer</td><td class='v'>71 missing</td></tr><tr><td class='k'>drug_class</td><td class='v'>97 missing</td></tr></table>
+
+<h2>Manufacturer Parsing</h2>
+<table class='kv'><tr><td class='k'>SPLIT</td><td class='v'>13271</td></tr><tr><td class='k'>PLAIN</td><td class='v'>11728</td></tr><tr><td class='k'>MISSING</td><td class='v'>71</td></tr></table>
+
+<h2>Drug Class</h2>
+<table class='kv'><tr><td class='k'>Distinct raw values</td><td class='v'>2498</td></tr><tr><td class='k'>Mapped to canonical</td><td class='v'>7211</td></tr><tr><td class='k'>Not yet mapped (review queue)</td><td class='v'>17859</td></tr></table>
+
+<h2>Route</h2>
+<table class='kv'><tr><td class='k'>Raw distribution</td><td class='v'>{'ORAL.SOLID': 10589, 'TOPICAL': 4140, 'INJECTION': 2635, 'UNKNOWN': 2597, 'ORAL.LIQUID': 2236, 'EFF': 1037, 'SPRAY': 488, 'EYE': 473, 'VAGINAL': 359, 'MOUTH': 174, 'RECTAL': 171, 'SOAP': 130, 'EAR': 41}</td></tr><tr><td class='k'>Records needing route review</td><td class='v'>488</td></tr></table>
+
+<h2>scientific_name Parsing</h2>
+<table class='kv'><tr><td class='k'>Records parsed</td><td class='v'>25070</td></tr><tr><td class='k'>Missing scientific_name</td><td class='v'><span class='warn'>2308</span></td></tr><tr><td class='k'>Truncated lists (ends with '+')</td><td class='v'>59</td></tr><tr><td class='k'>Equals-ambiguous</td><td class='v'>28</td></tr><tr><td class='k'>Slash-ambiguous</td><td class='v'>92</td></tr><tr><td class='k'>Mixed separators</td><td class='v'>109</td></tr><tr><td class='k'>Separator distribution</td><td class='v'>{'NONE': 13008, 'PLUS': 9570, 'DASH': 105, 'EQUALS': 28, 'AND': 21, 'AMP': 15, 'SLASH': 15}</td></tr></table>
+
+<h2>Token Inventory</h2>
+<table class='kv'><tr><td class='k'>Total token occurrences</td><td class='v'>57198</td></tr><tr><td class='k'>Unique raw tokens</td><td class='v'>8499</td></tr><tr><td class='k'>Tokens with embedded dose</td><td class='v'>1481</td></tr><tr><td class='k'>Tokens with parenthetical content</td><td class='v'>1745</td></tr><tr><td class='k'>Review-queue unique tokens</td><td class='v'>2087</td></tr><tr><td class='k'>Review-queue total occurrences</td><td class='v'>3610</td></tr></table>
+
+<h3>Top 10 Most-Frequent Raw Tokens</h3>
+<table class="top10">
+<tr><th>Raw Token</th><th>Occurrences</th></tr>
+<tr><td>VITAMIN C</td><td>1101</td></tr><tr><td>ZINC</td><td>888</td></tr><tr><td>PANTHENOL</td><td>881</td></tr><tr><td>VITAMIN E</td><td>718</td></tr><tr><td>FOLIC ACID</td><td>629</td></tr><tr><td>MENTHOL</td><td>589</td></tr><tr><td>GLYCERIN</td><td>584</td></tr><tr><td>VITAMIN D3</td><td>485</td></tr><tr><td>IRON</td><td>479</td></tr><tr><td>CALCIUM</td><td>426</td></tr>
+</table>
+
+<hr>
+<p><em>This report was generated automatically.  All flags indicate records
+that require human review before canonical name assignment or graph loading.</em></p>
+</body>
+</html>
